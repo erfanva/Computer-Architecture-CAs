@@ -29,9 +29,10 @@ module DataLoaderCU(input clk, rst, output reg EnCC, EnErr, output reg [7:0] cnt
             end
             2'b10: begin
                 inccnt <= 1'b1;
-                ns <= (cnt == 149) ? 2'b01 : 2'b10;
+                ns <= (cnt == 149) ? 2'b11 : 2'b10;
                 ld0cnt <= (cnt == 149) ? 1'b1 : 1'b0;
             end
+            2'b11: ;
             default: ns <= 2'b00;
         endcase  
 	end
