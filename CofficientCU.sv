@@ -18,11 +18,10 @@ module CoefficientCU(input clk, rst, En, output reg ld0xy, ldxy, ld0x2, ldx2, ld
             2'b01: begin
                 {ldxy, ldx2, ldx, ldy, inccnt} <= 5'b11111;
                 {ldB0, ldB1} <= 2'b11;
+                {ldxbar, ldybar} <= 2'b11;
                 ns <= En ? 2'b01 : 2'b10;
             end
-            2'b10: begin
-                {ldxbar, ldybar} <= 2'b11;
-            end
+            2'b10: ;
             2'b11: ;
             default: ns <= 2'b00;
         endcase  

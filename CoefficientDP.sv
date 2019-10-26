@@ -39,11 +39,11 @@ module CoefficientDP(input clk, rst,
     Reg20bit regsumy(clk, rst, ld0y, ldy, sumy, sumyreg);
 
     // xbar
-    Divider dividxbar(x, n, xbar);
+    Divider dividxbar(x, {2'b0, n, 10'b0}, xbar);
     Reg20bit regxbar(clk, rst, 0, ldxbar, xbar, xbarreg);
 
     // ybar
-    Divider dividybar(y, n, ybar);
+    Divider dividybar(y, {2'b0, n, 10'b0}, ybar);
     Reg20bit regybar(clk, rst, 0, ldybar, ybar, ybarreg);
 
     // n xbar2

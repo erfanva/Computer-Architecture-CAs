@@ -4,7 +4,7 @@ module DataLoaderCU(input clk, rst, output reg EnCC, EnErr, output reg [7:0] cnt
     reg ld0cnt, inccnt;
 
     always@(posedge clk, posedge rst) begin
-        $display("cnt: %d | ns:%d | ps:%d", cnt, ns, ps);
+        // $display("cnt: %d | ns:%d | ps:%d", cnt, ns, ps);
         if(rst)
             cnt <= 8'b0;
         else begin
@@ -18,17 +18,19 @@ module DataLoaderCU(input clk, rst, output reg EnCC, EnErr, output reg [7:0] cnt
     always@ (ps, cnt) begin 
 		{inccnt, ld0cnt, EnCC, EnErr} <= 4'b0;
 		case (ps)
-            2'b00: begin
+            2'b00: begin // Load
                 ld0cnt <= 1'b1;
                 ns <= 2'b01;
 			end
-            2'b01: begin
+            2'b01: begin // Coefficient
                 inccnt <= 1'b1;
+                EnCC <= 1'b1;
                 ns <= (cnt == 149) ? 2'b10 : 2'b01;
                 ld0cnt <= (cnt == 149) ? 1'b1 : 1'b0;
             end
-            2'b10: begin
+            2'b10: begin // Error
                 inccnt <= 1'b1;
+                EnErr <= 1'b1;
                 ns <= (cnt == 149) ? 2'b11 : 2'b10;
                 ld0cnt <= (cnt == 149) ? 1'b1 : 1'b0;
             end
