@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module RegressionTB();
     reg clk=0, rst=0;
     wire [19:0] outB0, outB1, E;

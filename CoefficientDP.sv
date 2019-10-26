@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module CoefficientDP(input clk, rst, 
     ld0xy, ldxy, ld0x2, ldx2, ld0x, ldx, ld0y, ldy, 
     ldxbar, ldybar, 

@@ -1,4 +1,5 @@
 
+`timescale 1ns/1ns
 module DataLoaderCU(input clk, rst, output reg EnCC, EnErr, output reg [7:0] cnt);
     reg [1:0] ns, ps = 2'b00;
     reg ld0cnt, inccnt;

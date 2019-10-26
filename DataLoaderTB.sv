@@ -1,4 +1,5 @@
 
+`timescale 1ns/1ns
 module DataLoaderTB ();
 	logic clk=0, rst=0;
 	wire EnCC, EnErr;

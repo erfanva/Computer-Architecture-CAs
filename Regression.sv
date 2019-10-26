@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module Regression(input clk, rst, output [19:0] outB0, outB1, E);
     // wire [19:0] x, y, B0, B1;
     // wire EnCC, EnErr;

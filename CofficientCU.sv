@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module CoefficientCU(input clk, rst, En, output reg ld0xy, ldxy, ld0x2, ldx2, ld0x, ldx, ld0y, ldy, 
     ldxbar, ldybar, 
     ldB1, ldB0,

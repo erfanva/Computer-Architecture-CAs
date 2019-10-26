@@ -1,4 +1,5 @@
 
+`timescale 1ns/1ns
 module DividerTB ();
 	logic [19:0] x = 20'b01000000000000000000, y = 20'b10000000000000000000;
     wire [19:0] W;

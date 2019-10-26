@@ -1,4 +1,5 @@
 
+`timescale 1ns/1ns
 module DataLoaderDP(input clk, rst, input [7:0] cnt, output [19:0] x, y);
     reg [149:0][19:0] vec_x;
     reg [149:0][19:0] vec_y;

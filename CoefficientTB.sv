@@ -1,4 +1,5 @@
 
+`timescale 1ns/1ns
 module CoefficientTB();
     reg clk=0, rst=0;
 
@@ -10,7 +11,7 @@ module CoefficientTB();
 
     initial begin
         rst = 1;
-        #50
+        #50;
         rst = 0;
         #20000;
         $stop;

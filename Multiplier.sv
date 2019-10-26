@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module Multiplier(input [19:0] X, Y, output [19:0] W);
     wire [39:0] temp;
     assign temp = X * Y;
