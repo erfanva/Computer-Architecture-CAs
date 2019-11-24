@@ -5,7 +5,10 @@ module RegressionTB();
     Regression UUT(clk, rst, outB0, outB1, E);
 
     initial begin
-        #20000;
+        rst = 1;
+        #50;
+        rst = 0;
+        #6200;
         $stop;
     end
 
