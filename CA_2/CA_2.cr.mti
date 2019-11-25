@@ -1,1 +1,13 @@
+{C:/+UT/Semester 5/Computer Architecture/CA/CA_2/RegisterFile.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/RegisterFile.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/DM.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/DM.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/IM.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/IM.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/extend.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/CA_2/extend.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}}
