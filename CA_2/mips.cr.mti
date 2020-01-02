@@ -1,0 +1,78 @@
+{C:/+UT/Semester 5/Computer Architecture/CA/ca/mux.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/ca/mux.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/adder.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/adder.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/pc.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/ca/pc.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/DM.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/DM.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DM
+
+Top level modules:
+	DM
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/MIPS.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/MIPS.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/DataPath.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/DataPath.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/Controller.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/Controller.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/RegisterFile.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/RegisterFile.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/extend.v} {1 {vlog -work work {C:/+UT/Semester 5/Computer Architecture/CA/ca/extend.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/TB.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/TB.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {C:/+UT/Semester 5/Computer Architecture/CA/ca/ALUController.sv} {1 {vlog -work work -sv {C:/+UT/Semester 5/Computer Architecture/CA/ca/ALUController.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
+} {} {}}

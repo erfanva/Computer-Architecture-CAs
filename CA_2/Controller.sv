@@ -33,12 +33,10 @@ module Controller (
 				addi <= 1'b1;
 			end
 			6'b000101: begin // beq
-				I <= 1'b1;
 				beq <= 1'b1;
 				subi <= 1'b1;
 			end
 			6'b000110: begin // bne
-				I <= 1'b1;
 				bne <= 1'b1;
 				subi <= 1'b1;
 			end

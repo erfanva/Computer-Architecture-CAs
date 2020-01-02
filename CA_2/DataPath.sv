@@ -61,7 +61,7 @@ module DataPath (
 	assign branch = (beq & zero) | (bne & ~zero);
 
 	MUX #(32) mux4(.in0(pcIncOut), .in1(branchedPC), .sel(branch), .out(mux4Out));
-	MUX #(32) mux5(.in0(mux4Out), .in1({pcOut[31:29], ins[25:0], 2'b0}), .sel(J), .out(pcIn));
+	MUX #(32) mux5(.in0(mux4Out), .in1({pcOut[31:28], ins[25:0], 2'b0}), .sel(J), .out(pcIn));
 
 	MUX #(32) muxALUSrc(.in0(ReadData2), .in1(extendOut), .sel(I), .out(muxALUSrcOut));
 
